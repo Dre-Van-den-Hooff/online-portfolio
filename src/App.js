@@ -8,11 +8,7 @@ import Skills from "./components/Skills";
 function App() {
   return (
     <Parallax pages={4} style={{ top: "0", left: "0" }}>
-      <ParallaxLayer
-        offset={0}
-        speed={2.5}
-        style={{ display: "flex", justifyContent: "center", alignItems: "center" }}
-      >
+      <ParallaxLayer offset={0} speed={2.5} style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
         <Intro />
       </ParallaxLayer>
 
@@ -26,6 +22,14 @@ function App() {
           justifyContent: "center",
           alignItems: "center",
           color: "white",
+          textShadow: `-1px -1px 0 #000,
+          0   -1px 0 #000,
+          1px -1px 0 #000,
+          1px  0   0 #000,
+          1px  1px 0 #000,
+          0    1px 0 #000,
+         -1px  1px 0 #000,
+         -1px  0   0 #000`,
         }}
       >
         <About />

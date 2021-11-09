@@ -11,5 +11,18 @@ body {
 
 .intro {
   font-size: 4em;
+  font-weight: normal;
+}
+
+.profile-card {
+  border: 1px solid black;
+  border-radius: 12px;
+  font-size: x-large;
+  margin: 1em;
+}
+
+.profile-card ul {
+  margin: 1em;
+  list-style-type: none;
 }
 /*# sourceMappingURL=App.css.map */

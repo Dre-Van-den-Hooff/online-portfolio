@@ -4,7 +4,7 @@ export default function Intro() {
   return (
     <>
       <div>
-        <header className="intro">Hello.</header>
+        <h1 className="intro">Hello.</h1>
       </div>
     </>
   );
