@@ -21,15 +21,7 @@ function App() {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          color: "white",
-          textShadow: `-1px -1px 0 #000,
-          0   -1px 0 #000,
-          1px -1px 0 #000,
-          1px  0   0 #000,
-          1px  1px 0 #000,
-          0    1px 0 #000,
-         -1px  1px 0 #000,
-         -1px  0   0 #000`,
+          flexDirection: "column",
         }}
       >
         <About />
