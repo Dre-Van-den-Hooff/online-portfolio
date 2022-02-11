@@ -1,13 +1,13 @@
 import React from "react";
 import { GoLocation } from "react-icons/go";
 import { FiPhone, FiMail } from "react-icons/fi";
-import { BsCalendar3 } from "react-icons/bs";
+import { BsCalendar3, BsGlobe2 } from "react-icons/bs";
 import profile_picture from "../images/IMG_0510.png";
 
 export default function About() {
   return (
     <>
-      <header>About</header>
+      <header className="about-header">About</header>
       <div className="profile-card">
         <div className="name-pfp-wrapper">
           <div className="name-container">
@@ -31,7 +31,9 @@ export default function About() {
             <li>
               <BsCalendar3 size="20px" /> 15/11/2002
             </li>
-            <li>Nationality: Belgian</li>
+            <li>
+              <BsGlobe2 size="20px" /> Nationality: Belgian
+            </li>
           </ul>
         </div>
         <div className="about-me">
@@ -39,9 +41,8 @@ export default function About() {
             <em>About me</em>
             <br />
             <p style={{ fontSize: "0.9em" }}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto beatae quam recusandae qui magnam
-              placeat quia aut hic porro non consequuntur corrupti, ab repudiandae ut aliquid deserunt suscipit id
-              ratione.
+              Hello! I'm 19 years old and I study Applied Information Technology at HoGent. I am passionate about web
+              development with React and everything tech.
             </p>
           </p>
         </div>
