@@ -9,7 +9,7 @@ export default function Skills() {
       fullMark: 100,
     },
     {
-      subject: "TypeScript",
+      subject: "CSS",
       A: 80,
       fullMark: 100,
     },
@@ -29,7 +29,7 @@ export default function Skills() {
       fullMark: 100,
     },
     {
-      subject: "CSS",
+      subject: "TypeScript",
       A: 80,
       fullMark: 100,
     },

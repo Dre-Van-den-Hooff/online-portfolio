@@ -1,7 +1,8 @@
 import React from "react";
 import { GoLocation } from "react-icons/go";
 import { FiPhone, FiMail } from "react-icons/fi";
-import { BsCalendar3, BsGlobe2 } from "react-icons/bs";
+import { BsCalendar3, BsGlobe2, BsLinkedin, BsInstagram } from "react-icons/bs";
+import { IoLogoLinkedin } from "react-icons/io";
 import profile_picture from "../images/IMG_0510.png";
 
 export default function About() {
@@ -45,6 +46,14 @@ export default function About() {
               development with React and everything tech.
             </p>
           </p>
+          <div className="socials">
+            <a href="https://www.linkedin.com/in/dr%C3%A9-van-den-hooff-002296227/" target="_blank">
+              <BsLinkedin size="30px" />
+            </a>
+            <a href="https://www.instagram.com/dre.vdh/" target="_blank">
+              <BsInstagram size="30px" />
+            </a>
+          </div>
         </div>
       </div>
     </>
