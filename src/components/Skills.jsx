@@ -9,7 +9,7 @@ export default function Skills() {
       fullMark: 100,
     },
     {
-      subject: "CSS",
+      subject: "(S)CSS",
       A: 80,
       fullMark: 100,
     },
@@ -44,15 +44,21 @@ export default function Skills() {
       fullMark: 100,
     },
     {
+      subject: "React Native",
+      A: 70,
+      fullMark: 100,
+    },
+    {
       subject: "NodeJs",
       A: 75,
       fullMark: 100,
     },
   ];
+
   return (
     <>
       <div className="skills">
-        <header>Skills</header>
+        <header>My Skills</header>
         <ResponsiveContainer width="60%" height="60%" className="resp-container">
           <RadarChart cx="50%" cy="50%" outerRadius="80%" data={data}>
             <PolarGrid />
