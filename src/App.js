@@ -51,7 +51,7 @@ function App() {
           color: "black",
         }}
       >
-        <Skills className="skills"/>
+        <Skills/>
 
       </ParallaxLayer>
     </Parallax>
