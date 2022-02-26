@@ -1,10 +1,13 @@
 import React, { useCallback } from "react";
+import { Cell } from "recharts";
 import Typewriter from "typewriter-effect";
 
 export default function Intro() {
-  const handleTypewriter = useCallback((typewriter) => {
-    typewriter.typeString(`<h1 class="intro">Hello.</h1>`).start();
-    typewriter.typeString(`<h2>Welcome</h2>`).start();
+  const handleTypewriter = useCallback(typewriter => {
+    typewriter.typeString(`<div class="typewriter-container"><h1 class="intro-h1">Hello :)</h1></div>`).start();
+    typewriter
+      .typeString(`<div class="typewriter-container"><h2 class="intro-h2">Welcome to my portfolio</h2></div>`)
+      .start();
   }, []);
 
   return (
