@@ -1,23 +1,18 @@
 import React from "react";
-import { GoLocation } from "react-icons/go";
-import { FiPhone, FiMail } from "react-icons/fi";
-import { BsCalendar3, BsGlobe2, BsLinkedin, BsInstagram } from "react-icons/bs";
-import { IoLogoLinkedin } from "react-icons/io";
 import profile_picture from "../images/IMG_0510.png";
+import { BsLinkedin, BsInstagram, BsGithub, BsCalendar3, BsGlobe2 } from "react-icons/bs";
+import { FiPhone, FiMail } from "react-icons/fi";
+import { GoLocation } from "react-icons/go";
 
 export default function About() {
   return (
     <>
-      <header className="about-header">About</header>
-      <div className="profile-card">
-        <div className="name-pfp-wrapper">
-          <div className="name-container">
-            <em className="name">Dré Van den Hooff</em>
-          </div>
-          <div className="pfp-container">
-            <img src={profile_picture} alt="profile_picture" className="profile-picture" />
-          </div>
-        </div>
+      <header className="about-header">About Me</header>
+      <div className="card-container">
+        <header className="header-image">
+          <img src={profile_picture} alt="Dré Van den Hooff" />
+        </header>
+        <h1 className="name">Dré Van den Hooff</h1>
         <div className="details">
           <ul>
             <li>
@@ -39,19 +34,26 @@ export default function About() {
         </div>
         <div className="about-me">
           <p>
-            <em>About me</em>
-            <br />
-            <p style={{ fontSize: "0.9em" }}>
+            <p className="text">
               Hello! I'm 19 years old and I study Applied Information Technology at HoGent. I am passionate about web
-              development with React and everything tech.
+              and mobile development with React and React Native.
             </p>
           </p>
+        </div>
+        <div className="social-container">
           <div className="socials">
             <a href="https://www.linkedin.com/in/dr%C3%A9-van-den-hooff-002296227/" target="_blank">
-              <BsLinkedin size="30px" />
+              <BsLinkedin size="40px" />
             </a>
+          </div>
+          <div className="socials">
+            <a href="https://github.com/Dre-Van-den-Hooff" target="_blank">
+              <BsGithub size="40px" />
+            </a>
+          </div>
+          <div className="socials">
             <a href="https://www.instagram.com/dre.vdh/" target="_blank">
-              <BsInstagram size="30px" />
+              <BsInstagram size="40px" />
             </a>
           </div>
         </div>
