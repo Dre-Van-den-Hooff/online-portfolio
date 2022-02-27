@@ -42,17 +42,17 @@ export default function About() {
         </div>
         <div className="social-container">
           <div className="socials">
-            <a href="https://www.linkedin.com/in/dr%C3%A9-van-den-hooff-002296227/" target="_blank">
+            <a href="https://www.linkedin.com/in/dr%C3%A9-van-den-hooff-002296227/" rel="noreferrer" target="_blank">
               <BsLinkedin size="40px" />
             </a>
           </div>
           <div className="socials">
-            <a href="https://github.com/Dre-Van-den-Hooff" target="_blank">
+            <a href="https://github.com/Dre-Van-den-Hooff" rel="noreferrer" target="_blank">
               <BsGithub size="40px" />
             </a>
           </div>
           <div className="socials">
-            <a href="https://www.instagram.com/dre.vdh/" target="_blank">
+            <a href="https://www.instagram.com/dre.vdh/" rel="noreferrer" target="_blank">
               <BsInstagram size="40px" />
             </a>
           </div>

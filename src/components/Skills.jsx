@@ -24,8 +24,8 @@ export default function Skills() {
       fullMark: 100,
     },
     {
-      subject: "HTML",
-      A: 95,
+      subject: "React native",
+      A: 70,
       fullMark: 100,
     },
     {
@@ -44,8 +44,8 @@ export default function Skills() {
       fullMark: 100,
     },
     {
-      subject: "React Native",
-      A: 70,
+      subject: "HTML",
+      A: 95,
       fullMark: 100,
     },
     {
