@@ -33,11 +33,9 @@ export default function About() {
           </ul>
         </div>
         <div className="about-me">
-          <p>
-            <p className="text">
-              Hello! I'm 19 years old and I study Applied Information Technology at HoGent. I am passionate about web
-              and mobile development with React and React Native.
-            </p>
+          <p className="text">
+            Hello! I'm 19 years old and I study Applied Information Technology at HoGent. I am passionate about web and
+            mobile development with React and React Native.
           </p>
         </div>
         <div className="social-container">
