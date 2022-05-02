@@ -2,6 +2,7 @@
   "name": "online-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://dre-van-den-hooff.github.io/online-portfolio/",
   "dependencies": {
     "@react-spring/parallax": "^9.3.0",
     "@testing-library/jest-dom": "^5.11.4",
