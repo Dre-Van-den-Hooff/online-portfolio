@@ -4,12 +4,14 @@ import Intro from "./components/Intro";
 import About from "./components/About";
 import Experience from "./components/Experience";
 import Skills from "./components/Skills";
+import NewSite from "./components/NewSite";
 
 function App() {
   return (
     <Parallax pages={4} style={{ top: "0", left: "0" }}>
       <ParallaxLayer offset={0} speed={2.5} style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
-        <Intro />
+        <NewSite />
+        {/* <Intro /> */}
       </ParallaxLayer>
 
       <ParallaxLayer offset={1} speed={2} style={{ backgroundColor: "#48d1cc" }} />
@@ -22,8 +24,7 @@ function App() {
           justifyContent: "center",
           alignItems: "center",
           flexDirection: "column",
-        }}
-      >
+        }}>
         <About />
       </ParallaxLayer>
 
@@ -35,8 +36,7 @@ function App() {
           justifyContent: "center",
           alignItems: "center",
           color: "black",
-        }}
-      >
+        }}>
         <Experience />
       </ParallaxLayer>
       <ParallaxLayer offset={3} speed={2} style={{ backgroundColor: "#48d1cc" }} />
@@ -49,10 +49,8 @@ function App() {
           justifyContent: "center",
           alignItems: "center",
           color: "black",
-        }}
-      >
-        <Skills/>
-
+        }}>
+        <Skills />
       </ParallaxLayer>
     </Parallax>
   );
